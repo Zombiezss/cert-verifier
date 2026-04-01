@@ -1,0 +1,38 @@
+{
+  "name": "cert-verifier",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node backend/server.cjs",
+    "dev:server": "nodemon backend/server.cjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "fabric-ca-client": "^2.2.20",
+    "fabric-common": "^2.2.20",
+    "fabric-network": "^2.2.20",
+    "jsqr": "^1.4.0",
+    "lucide-react": "^0.554.0",
+    "mongodb": "4.1",
+    "mongoose": "^7.8.7",
+    "nodemailer": "^7.0.11",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "nodemon": "^3.1.11",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

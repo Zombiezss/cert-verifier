@@ -1,0 +1,7 @@
+{
+  "name": "Cert-verifier",
+  "description": "A blockchain-based student certificate validation system on Ethereum (Simulated). Verify academic credentials securely.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
