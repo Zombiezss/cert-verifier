@@ -1,21 +1,135 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎓 Cert-Chain: Blockchain-Based Certificate Verification System
 
-# Run and deploy your AI Studio app
+## 🚀 Overview
 
-This contains everything you need to run your app locally.
+Cert-Chain is a secure and decentralized certificate verification system built using **Blockchain technology**.
+It enables institutions to issue certificates and allows users to verify them instantly, eliminating fraud and ensuring authenticity.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1h9t8RN3P0rPR8n_OeCobPA3YAmjuY20O
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+* 🔐 **Blockchain-based certificate storage**
+* ✅ **Instant certificate verification**
+* 👨‍🎓 **Student certificate management**
+* 🏫 **Admin certificate issuance**
+* 🧾 **Tamper-proof data using blockchain**
+* 🤖 **AI integration for smart validation**
+* 💬 **Feedback and issue reporting system**
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-"# cert-verifier" 
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* TypeScript
+* Vite
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### Blockchain
+
+* Hyperledger Fabric
+
+### Other Tools
+
+* Gemini API (AI integration)
+
+---
+
+## 📂 Project Structure
+
+```
+cert-verifier/
+│── backend/
+│   ├── models/
+│   ├── routes.js
+│   ├── server.cjs
+│── components/
+│── services/
+│── App.tsx
+│── index.tsx
+│── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Zombiezss/cert-verifier.git
+cd cert-verifier
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run backend
+
+```bash
+cd backend
+node server.cjs
+```
+
+### 4️⃣ Run frontend
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔐 Security Note
+
+Sensitive files like `.env` and blockchain wallet identities are excluded using `.gitignore` to ensure security.
+
+---
+
+## 📸 Screenshots
+
+*(Add your project screenshots here)*
+
+---
+
+## 🎯 Use Cases
+
+* University certificate verification
+* Job applicant validation
+* Fraud prevention in digital credentials
+
+---
+
+## 🚀 Future Enhancements
+
+* Mobile application support
+* QR-based certificate verification
+* Multi-organization blockchain network
+* Advanced AI fraud detection
+
+---
+
+## 👨‍💻 Author
+
+**Anil K K**
+📧 Email: [anilkkanil9@gmail.com](mailto:anilkkanil9@gmail.com)
+🔗 LinkedIn: https://www.linkedin.com/in/anil-kk-197401327/
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
